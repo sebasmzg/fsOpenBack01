@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "echo \"Preparing build...\" && npm prune --omit=dev"
   },
   "keywords": [],
   "author": "",
